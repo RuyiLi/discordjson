@@ -7,8 +7,7 @@ exports.parse = function(key, value, client, msg = null, splitArg = null){
 	
 	if(typeof value == "string"){
 		value = value.replace("[ping]", client.ping + "ms");
-		value = value.replace("[author]", msg.author.toString());
-		value = value.replace("[user]", msg.member.toString());
+		value = value.replace("[author]", msg == null ? "[author]" : msg.author.toString());
 		if(value.match(/\[arg\]/g) != null){
 			let numberOfArgs = value.match(/\[arg\]/g).length;
 			let cleaned = msg.content.split(" ").slice(1).join(" ");
