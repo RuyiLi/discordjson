@@ -18,7 +18,7 @@
 			"reply": "Test reply"
 		},
 		"banne":{
-			"ban": "Banned [arg]. [arg]"
+			"ban": "Banned [arg] for [arg] days. Reason: [arg]"
 		},
 		"kicke":{
 			"kick": "Kicked [arg]. Reason: [arg]"
