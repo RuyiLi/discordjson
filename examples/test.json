@@ -1,0 +1,30 @@
+{
+	"token": "Your token here",
+	"prefix": "$",
+	"splitArgsBy": ", ",
+	"ready":{
+		"log": ["Check one.", "Check two."]
+	},
+	"commands":{
+		"ping":{
+			"edit": "Pong! [ping]",
+			"log": "Sent ping."
+		},
+		"help":{
+			"edit": "Test help command."
+		},
+		"message":{
+			"send": "Test send [user] [member]",
+			"reply": "Test reply"
+		},
+		"banne":{
+			"ban": "Banned [arg]. [arg]"
+		},
+		"kicke":{
+			"kick": "Kicked [arg]. Reason: [arg]"
+		},
+		"script":{
+			"script": "./testscript.js"
+		}
+	}
+}
