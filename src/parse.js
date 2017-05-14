@@ -84,6 +84,6 @@ exports.parse = function(key, value, client, msg = null, splitArg = null){
 	}else if(key == "script"){
 		var script = require(value);
 		var func = Object.keys(script)[0];
-		console.log(script[func](msg, client, discord))
+		script[func](msg, client, discord)
 	}
 }
