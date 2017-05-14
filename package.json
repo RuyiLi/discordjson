@@ -1,0 +1,29 @@
+{
+  "name": "discordjson",
+  "version": "1.0.0",
+  "description": "A discord.js framework.",
+  "main": "discordjson.js",
+  "dependencies": {
+    "discord.js": "^11.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuyiLi/discordjson.git"
+  },
+  "keywords": [
+    "discord",
+    "json",
+    "discord.js",
+    "discordjson"
+  ],
+  "author": "Ruyi Li (lusiddev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuyiLi/discordjson/issues"
+  },
+  "homepage": "https://github.com/RuyiLi/discordjson#readme"
+}
