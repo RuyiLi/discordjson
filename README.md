@@ -1,6 +1,8 @@
 # discordjson
 A discord.js framework.
 
+DO NOT USE THIS UNLESS YOU ARE CREATING A SIMPLE RESPONSE BOT, THIS IS VERY UNSTABLE AND NOT MAINTAINED.
+
 ##Installation
 ---
 ```npm install discordjson```
