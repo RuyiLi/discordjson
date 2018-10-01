@@ -71,3 +71,5 @@ exports.ping = function(msg, client, discord){
 ```[user]```: When put in a value, this will automatically be replaced with the user who sent the message.
 
 ```[ping]```: When put in a value, this will automatically be replaced with the client's ping in milliseconds.
+
+alexa play despacito
