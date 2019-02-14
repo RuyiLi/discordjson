@@ -1,0 +1,25 @@
+{
+    "prefixes": [ ",tr ", "t." ],
+    "events": {
+        "ready": {
+            "src": "./listeners/ready.js",
+            "foo": "bar"
+        },
+        "guildCreate": {
+            "src": "./listeners/newGuild.js"
+        }
+    },
+    "commands": [
+        {
+            "names": ["say", "talk"],
+            "src": "./commands/say.js",
+            "test": "Test!"
+        },
+        {
+            "name": "ping",
+            "aliases": ["pong"],
+            "src": "./commands/ping.js"
+        }
+    ],
+    "token": "no"
+}
