@@ -1,0 +1,21 @@
+{
+  "name": "discordjson",
+  "version": "1.0.0",
+  "description": "A command framework for discord.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "json",
+    "discord.js",
+    "command",
+    "framework"
+  ],
+  "author": "Ruyi Li",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
